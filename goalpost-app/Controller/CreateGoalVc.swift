@@ -16,9 +16,15 @@ class CreateGoalVc: UIViewController {
     @IBOutlet weak var longTermBtn: UIButton!
     @IBOutlet weak var shortTermBtn: UIButton!
     
+    //MARK: - Property
+    var goalType: GoalType = .shortTerm
+    
     //MARK: - ViewLifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        nextBtn.bindToKeyboard()
+        shortTermBtn.setSelectedColor()
+        longTermBtn.setDiselectedColor()
 
     }
     //MARK: - Actions
@@ -27,11 +33,15 @@ class CreateGoalVc: UIViewController {
     }
     
     @IBAction func shortTermBtnPressed(_ sender: Any) {
-        
+        goalType = .shortTerm
+        shortTermBtn.setSelectedColor()
+        longTermBtn.setDiselectedColor()
     }
     
     @IBAction func longTermBtnPressed(_ sender: Any) {
-        
+        goalType = .longTerm
+        longTermBtn.setSelectedColor()
+        shortTermBtn.setDiselectedColor()
         
     }
     
