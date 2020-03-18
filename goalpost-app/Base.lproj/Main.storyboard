@@ -10,7 +10,7 @@
         <!--Goals Vc-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="GoalsVc" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GoalsVc" id="BYZ-38-t0r" customClass="GoalsVc" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,7 +40,6 @@
                                         <state key="normal" image="addGoal"/>
                                         <connections>
                                             <action selector="createGoalDidPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Trk-R3-Z1L"/>
-                                            <segue destination="gJP-uh-VKR" kind="presentation" id="O0L-Zj-G6M"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -174,9 +173,9 @@
         <!--Create Goal Vc-->
         <scene sceneID="JYN-tm-Cv9">
             <objects>
-                <viewController id="gJP-uh-VKR" customClass="CreateGoalVc" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateGoalVc" id="gJP-uh-VKR" customClass="CreateGoalVc" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HWI-DK-ZrX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bf9-TC-5Dh">
@@ -268,7 +267,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azM-gk-CZo">
-                                <rect key="frame" x="0.0" y="587" width="375" height="60"/>
+                                <rect key="frame" x="0.0" y="607" width="375" height="60"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="l6F-eF-1ei"/>

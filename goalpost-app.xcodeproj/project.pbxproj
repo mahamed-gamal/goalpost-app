@@ -17,6 +17,7 @@
 		8639EA82241FD5C900A1E4EB /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639EA81241FD5C900A1E4EB /* GoalCell.swift */; };
 		8642F5042420EFE8006D1BE7 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8642F5032420EFE8006D1BE7 /* GoalType.swift */; };
 		865FF64E242239DB00985F30 /* CreateGoalVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FF64D242239DB00985F30 /* CreateGoalVc.swift */; };
+		865FF65124223D1300985F30 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FF65024223D1300985F30 /* UIViewControllerExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8639EA81241FD5C900A1E4EB /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		8642F5032420EFE8006D1BE7 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		865FF64D242239DB00985F30 /* CreateGoalVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVc.swift; sourceTree = "<group>"; };
+		865FF65024223D1300985F30 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		8639EA67241FC5E500A1E4EB /* goalpost-app */ = {
 			isa = PBXGroup;
 			children = (
+				865FF64F24223CF600985F30 /* Extension */,
 				8642F5022420EFCF006D1BE7 /* Enums */,
 				8639EA80241FC5FF00A1E4EB /* View */,
 				8639EA7F241FC5F400A1E4EB /* Controller */,
@@ -101,6 +104,14 @@
 				8642F5032420EFE8006D1BE7 /* GoalType.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		865FF64F24223CF600985F30 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				865FF65024223D1300985F30 /* UIViewControllerExt.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +187,7 @@
 			files = (
 				8639EA6D241FC5E500A1E4EB /* GoalsVc.swift in Sources */,
 				8639EA69241FC5E500A1E4EB /* AppDelegate.swift in Sources */,
+				865FF65124223D1300985F30 /* UIViewControllerExt.swift in Sources */,
 				8642F5042420EFE8006D1BE7 /* GoalType.swift in Sources */,
 				8639EA73241FC5E500A1E4EB /* goalpost_app.xcdatamodeld in Sources */,
 				8639EA82241FD5C900A1E4EB /* GoalCell.swift in Sources */,
