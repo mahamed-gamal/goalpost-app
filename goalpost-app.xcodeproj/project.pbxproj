@@ -16,6 +16,7 @@
 		8639EA78241FC5EA00A1E4EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8639EA76241FC5EA00A1E4EB /* LaunchScreen.storyboard */; };
 		8639EA82241FD5C900A1E4EB /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639EA81241FD5C900A1E4EB /* GoalCell.swift */; };
 		8642F5042420EFE8006D1BE7 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8642F5032420EFE8006D1BE7 /* GoalType.swift */; };
+		865FF64E242239DB00985F30 /* CreateGoalVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FF64D242239DB00985F30 /* CreateGoalVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8639EA79241FC5EA00A1E4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8639EA81241FD5C900A1E4EB /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		8642F5032420EFE8006D1BE7 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		865FF64D242239DB00985F30 /* CreateGoalVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				8639EA6C241FC5E500A1E4EB /* GoalsVc.swift */,
+				865FF64D242239DB00985F30 /* CreateGoalVc.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				8639EA73241FC5E500A1E4EB /* goalpost_app.xcdatamodeld in Sources */,
 				8639EA82241FD5C900A1E4EB /* GoalCell.swift in Sources */,
 				8639EA6B241FC5E500A1E4EB /* SceneDelegate.swift in Sources */,
+				865FF64E242239DB00985F30 /* CreateGoalVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

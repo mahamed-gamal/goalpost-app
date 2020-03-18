@@ -18,7 +18,6 @@ class GoalsVc: UIViewController {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
-        // Do any additional setup after loading the view.
     }
     //MARK: - Actions
     @IBAction func createGoalDidPressed(_ sender: Any) {
@@ -26,6 +25,7 @@ class GoalsVc: UIViewController {
     }
 }
 
+//MARK: - Extension TableView Delegate And DataSource
 extension GoalsVc: UITableViewDelegate , UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
