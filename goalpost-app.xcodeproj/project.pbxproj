@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86389D3F2427A7BB00384BDF /* FinishGoalVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86389D3E2427A7BB00384BDF /* FinishGoalVc.swift */; };
 		8639EA69241FC5E500A1E4EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639EA68241FC5E500A1E4EB /* AppDelegate.swift */; };
 		8639EA6B241FC5E500A1E4EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639EA6A241FC5E500A1E4EB /* SceneDelegate.swift */; };
 		8639EA6D241FC5E500A1E4EB /* GoalsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639EA6C241FC5E500A1E4EB /* GoalsVc.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86389D3E2427A7BB00384BDF /* FinishGoalVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVc.swift; sourceTree = "<group>"; };
 		8639EA65241FC5E500A1E4EB /* goalpost-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goalpost-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8639EA68241FC5E500A1E4EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8639EA6A241FC5E500A1E4EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			children = (
 				8639EA6C241FC5E500A1E4EB /* GoalsVc.swift */,
 				865FF64D242239DB00985F30 /* CreateGoalVc.swift */,
+				86389D3E2427A7BB00384BDF /* FinishGoalVc.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				86D86CF82422934A00B38B6E /* UIButtonExt.swift in Sources */,
 				8639EA6D241FC5E500A1E4EB /* GoalsVc.swift in Sources */,
 				8639EA69241FC5E500A1E4EB /* AppDelegate.swift in Sources */,
+				86389D3F2427A7BB00384BDF /* FinishGoalVc.swift in Sources */,
 				865FF65124223D1300985F30 /* UIViewControllerExt.swift in Sources */,
 				8642F5042420EFE8006D1BE7 /* GoalType.swift in Sources */,
 				8639EA73241FC5E500A1E4EB /* goalpost_app.xcdatamodeld in Sources */,
